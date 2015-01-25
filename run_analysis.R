@@ -33,12 +33,6 @@ extractInfo <- function(fn) {
 # 1. merge test/train sets
 # 2. aggregate on subjects
 createTidyData <- function() {
-  testFn = 
-  trainFn = 
-  testSubj = 
-  trainSubj = 
-  featureFn = 
-  
   r <- extractInfo("features.txt")
   indices <- r[[1]]
   names <- r[[2]]
